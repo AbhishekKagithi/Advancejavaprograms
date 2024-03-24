@@ -1,0 +1,84 @@
+<%@page import="com.hostel.management.HostelDAO"
+	import="java.util.Base64"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<link href = "Roomdetailstyle.css" rel = "stylesheet">
+<title>Room Availability</title>
+<!-- Bootstrap CDN(Content Delivery Network) link to get support of BootStrap -->
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+
+</head>
+<body>
+	<div >
+		<h1 class=" container mt-5 text-center text-success">Room
+			Availability Details</h1>
+	</div>
+
+
+	<div>
+		<h3 class=" container mt-5 text-center text-success">Select the
+			category of room</h3>
+	</div>
+<div class = "mystyle1.css">
+	<div>
+		<h1>Luxury Room</h1>
+	</div>
+	<div>
+		<h3>Features</h3>
+		<ul>
+			<li>Free Wi-fi</li>
+			<li>Hot Water</li>
+			<li>Home Food With varieties</li>
+			<li>Big bed size</li>
+			<li>2 beds per room</li>
+		</ul>
+		<h4>Rooms Available= ${hostel.Room_Availability}</h4>
+
+	</div>
+	
+</div>
+<a class = "btn btn-primary" href = "./EditProductServlet?Category=${hostel.Category }">Book now</a>
+
+<div class = "mystyle2.css">
+	<div>
+		<h1>Deluxe Room</h1>
+	</div>
+	<div>
+		<h3>Features</h3>
+		<ul>
+			<li>Free Wi-fi</li>
+			<li>Hot Water</li>
+			<li>Home Food With varieties</li>
+			<li>Normal bed size</li>
+			<li>4 beds per room</li>
+		</ul>
+
+			<h4>Rooms Available= ${hostel.Room_Availability}</h4>
+		
+	</div>
+</div>
+<a class = "btn btn-primary" href = "./EditProductServlet?Category=${hostel.Category }">Book now</a>
+	<div class = "myStyle3.css">
+
+<div>	
+		<h1>Normal Room</h1>
+	</div>
+	<div>
+		<h3>Features</h3>
+		<ul>
+			<li>Free Wi-fi</li>
+			<li>Hot Water</li>
+			<li>Home Food With varieties</li>
+			<li>Small bed size</li>
+			<li>6 beds per room</li>
+		</ul>
+
+	</div>
+</div>
+<a class = "btn btn-primary" href = "./EditProductServlet?Category=${hostel.Category }">Book now</a>
+</body>
+</html>

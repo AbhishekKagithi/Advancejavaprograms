@@ -1,0 +1,14 @@
+127.0.0.1 - - [17/Mar/2024:19:22:17 +0530] "GET /HostelManagementSystem/Images.jsp HTTP/1.1" 200 1645
+127.0.0.1 - - [17/Mar/2024:19:22:17 +0530] "GET /HostelManagementSystem/images/hostel.jpeg HTTP/1.1" 304 -
+127.0.0.1 - - [17/Mar/2024:19:22:17 +0530] "GET /HostelManagementSystem/images/Image4.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [17/Mar/2024:19:22:17 +0530] "GET /HostelManagementSystem/images/gym.webp HTTP/1.1" 200 26436
+127.0.0.1 - - [17/Mar/2024:19:22:17 +0530] "GET /HostelManagementSystem/images/pool.jpeg HTTP/1.1" 200 10733
+127.0.0.1 - - [17/Mar/2024:19:22:17 +0530] "GET /HostelManagementSystem/images/ground.avif HTTP/1.1" 200 43569
+127.0.0.1 - - [17/Mar/2024:19:22:17 +0530] "GET /HostelManagementSystem/images/Image3.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [17/Mar/2024:19:22:17 +0530] "GET /HostelManagementSystem/images/Image2.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [17/Mar/2024:19:22:17 +0530] "GET /HostelManagementSystem/images/dining.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [17/Mar/2024:19:22:17 +0530] "GET /HostelManagementSystem/images/Image5.jpg HTTP/1.1" 200 115166
+127.0.0.1 - - [17/Mar/2024:19:22:17 +0530] "GET /HostelManagementSystem/images/deluxe.jpeg HTTP/1.1" 200 92043
+127.0.0.1 - - [17/Mar/2024:19:22:17 +0530] "GET /HostelManagementSystem/images/normal.jpeg HTTP/1.1" 200 214334
+127.0.0.1 - - [17/Mar/2024:19:22:17 +0530] "GET /HostelManagementSystem/images/luxury.jpeg HTTP/1.1" 200 156794
+127.0.0.1 - - [17/Mar/2024:19:22:18 +0530] "GET /favicon.ico HTTP/1.1" 404 762

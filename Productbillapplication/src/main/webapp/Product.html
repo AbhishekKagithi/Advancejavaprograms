@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Product Invoice</title>
+</head>
+<body bgcolor = "sky blue">
+	<h1>Product details</h1>
+	<form method = "get" action = "ProductServlet">
+	<label>ProductID</label>
+	<input type = "text" name = "ProductID"
+	placeholder = "Enter ID here" required/>
+	
+	
+	<br><br>
+	
+	<label>ProductName</label>
+	<input type = "text" name = "ProductName"
+	placeholder  = "Enter name here" required/>
+	
+	<br><br>
+	
+	
+	<label>ProductPrice</label>
+	<input type = "number" name = "ProductPrice"
+	placeholder  = "Enter price here" required/>
+	
+	<br><br>
+	
+	
+	<label>ProductQuantity</label>
+	<input type = "number" name = "ProductQuantity"
+	placeholder  = "Enter Quantity here" min = "2",max = "10" required/>
+	
+	<br><br>
+	
+	<input type = "submit" value = "Generate invoice">
+	</form>
+</body>
+</html>

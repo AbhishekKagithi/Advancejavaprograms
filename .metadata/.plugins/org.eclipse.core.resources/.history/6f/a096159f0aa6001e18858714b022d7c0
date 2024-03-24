@@ -1,0 +1,5 @@
+package swe.abc;
+
+public @interface webServlet {
+
+}

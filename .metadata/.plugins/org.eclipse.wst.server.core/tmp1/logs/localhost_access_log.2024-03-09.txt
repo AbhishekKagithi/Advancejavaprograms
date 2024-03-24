@@ -1,0 +1,13 @@
+127.0.0.1 - - [09/Mar/2024:10:26:23 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/Mar/2024:10:26:26 +0530] "GET /HostelManagementSystem/RoomDetails.jsp HTTP/1.1" 200 767
+0:0:0:0:0:0:0:1 - - [09/Mar/2024:10:26:54 +0530] "GET /HostelManagementSystem/RoomDetails.jsp HTTP/1.1" 200 755
+0:0:0:0:0:0:0:1 - - [09/Mar/2024:10:27:08 +0530] "GET /HostelManagementSystem/RoomDetails.jsp HTTP/1.1" 200 745
+0:0:0:0:0:0:0:1 - - [09/Mar/2024:10:27:57 +0530] "GET /HostelManagementSystem/RoomDetails.jsp HTTP/1.1" 200 1194
+0:0:0:0:0:0:0:1 - - [09/Mar/2024:10:29:30 +0530] "GET /HostelManagementSystem/RoomDetails.jsp HTTP/1.1" 200 1243
+0:0:0:0:0:0:0:1 - - [09/Mar/2024:10:47:45 +0530] "GET /HostelManagementSystem/RoomDetails.jsp HTTP/1.1" 200 1682
+0:0:0:0:0:0:0:1 - - [09/Mar/2024:10:47:45 +0530] "GET /HostelManagementSystem/Roomdetailstyle.css HTTP/1.1" 200 294
+0:0:0:0:0:0:0:1 - - [09/Mar/2024:10:47:52 +0530] "GET /HostelManagementSystem/EditProductServlet?Category= HTTP/1.1" 404 796
+0:0:0:0:0:0:0:1 - - [09/Mar/2024:10:50:24 +0530] "GET /HostelManagementSystem/RoomDetails.jsp HTTP/1.1" 200 1682
+0:0:0:0:0:0:0:1 - - [09/Mar/2024:10:50:24 +0530] "GET /HostelManagementSystem/Roomdetailstyle.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Mar/2024:10:50:26 +0530] "GET /HostelManagementSystem/RoomDetails.jsp HTTP/1.1" 200 1682
+0:0:0:0:0:0:0:1 - - [09/Mar/2024:10:50:36 +0530] "GET /HostelManagementSystem/RoomDetails.jsp HTTP/1.1" 200 1763

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Registration Application</title>
+</head>
+<body bgcolor = "yellow"  style = "background-color:Red">
+<h1>Registration details</h1>
+<form method ="get" action = "RegisterServlet">
+<label>Username:</label>
+<input type = "text" name = "Username" placeholder = "Enter the name" required/>
+
+<br><br>
+
+<label>Password:</label>
+<input type = "text" name = "Password" placeholder = "Enter the Password" required/>
+
+<br><br>
+
+<label>Gender:</label>
+<input type = "radio" name = "Gender" value = "male" required/>MALE
+<input type = "radio" name = "Gender" value = "female" required/>FEMALE
+
+<br><br>
+
+<label>:DOB</label>
+<input type = "date" name = "DOB" required/>
+
+<br><br>
+
+<label>Mobilenumber:</label>
+<input type = "number" name = "Mobilenumber" placeholder = "Enter the mobile number" required/>
+
+<br><br>
+
+<label>E-mail:</label>
+<input type = "Email" name = "Email" placeholder = "Enter the E mail" required/>
+
+<br><br>
+
+<label>Qualification:</label>
+<input type = "checkbox" name = "Qualification" value = "B.Sc">B.Sc
+<input type = "checkbox" name = "Qualification" value = "B.Tech">B.Tech
+<input type = "checkbox" name = "Qualification" value = "B.Com">B.Com
+<input type = "checkbox" name = "Qualification" value = "B.CA">B.CA
+<input type = "checkbox" name = "Qualification" value = "B.BA">B.BA
+
+
+<br><br>
+
+<label>Languages</label>
+<select name = "Languages" size = "3" multiple>
+<option>Telugu</option>
+<option>English</option>
+<option>Hindi</option>
+<option>Kannada</option>
+<option>Tamil</option>
+</select>
+
+<br><br>
+
+<label>Country</label>
+<select name = "Country" >
+<option>India</option>
+<option>England</option>
+<option>Nepal</option>
+<option>Bhutan</option>
+<option>New Zealand</option>
+</select>
+
+<br><br>
+
+<label> Your comments</label>
+<br>
+<textarea name = "comments" rows = "5" columns = "5"></textarea>
+<br><br>
+<input type = "submit" value = "Registration">
+</form>
+
+</body>
+</html>

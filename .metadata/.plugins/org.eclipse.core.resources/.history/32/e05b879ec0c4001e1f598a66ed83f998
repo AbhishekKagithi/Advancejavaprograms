@@ -1,0 +1,23 @@
+<html>
+     <head>
+             <title>   Login page   </title>
+     </head>
+      <body bgcolor = “yellow”>
+	<h1>  Login Page   </h1>
+           <form method = “get” action = “loginservlet”>
+		<label>  Username: </label>
+		<input type = “text”  name = “Username”
+		Placeholder = Enter the username  required/>
+
+	<br><br>
+
+		<label>  Password: </label>
+		<input type = “password”  name = “Password”
+		Placeholder = Enter the password  required/>
+
+<br><br>
+
+		<input type = “submit” value = login>
+	</form>
+      </body>
+</html>

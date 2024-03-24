@@ -1,0 +1,41 @@
+@charset "UTF-8";
+ .myStyle1{color:fuchsia;
+	Text-align: center;
+	Background-color:#f89e0a;
+	Text-decoration:blink;
+	Font-size: 24px;
+	Font-family:fantasy;
+	font-style : italic;
+    }
+	.myStyle2
+	{
+	color: #00ffff;
+	text-align: center;
+	
+	Border:thick;
+	margin:20px;
+	padding-left:10px;
+	font-size: 20px;
+	font-family: cursive;
+	font-style: italic;
+	  }
+#myStyle3{
+color:green;
+	text-align: left;
+	text-decoration:inherit;;
+	Background-color:lime;
+	font-size: 23px;
+	font-family:inherit;
+	font-style:oblique;
+	  }
+	  .mySyle4{color:fuchsia;
+	Text-align: center;
+	Background-color:#f89e0a;
+	Text-decoration:blink;
+	Font-size: 24px;
+	Font-family:fantasy;
+	font-style : italic;
+    }
+	  
+
+

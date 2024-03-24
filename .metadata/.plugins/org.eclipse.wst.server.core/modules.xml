@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:Fullnamedisplay" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:RegisterApplication" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:ProductManagementApplication" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:FirstApplication" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Productbillapplication" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Http" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Loginpage" serverId="apache-tomcat-10.0.27 at localhost"/>
+</modules>
